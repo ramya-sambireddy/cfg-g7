@@ -1,0 +1,89 @@
+h2.red-text {
+  color: red;
+  font-size: 40px;
+  font-family: fantasy;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+h2.blue-text {
+  color: cornflowerblue;
+  font-size: 40px;
+  font-family: fantasy;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+img.poster {
+  border-radius: 50%;
+}
+div.movie {
+  margin: 2px;
+}
+
+div p {
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  text-shadow: 2px 2px 5px black;
+  font-size: 17px;
+}
+h2 {
+  color: red;
+  font-size: 40px;
+  font-family: fantasy;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+img {
+  width: 300px;
+  height: 250px;
+}
+div.movie {
+  text-align: center;
+  margin: 2px;
+}
+
+div p,
+a p {
+  text-align: center;
+  font-family: fantasy;
+  text-shadow: 2px 2px 5px black;
+  font-size: 17px;
+}
+
+.happy {
+  color: white;
+}
+
+body {
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtMjA5LWFkai0wOV8xLmpwZw.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+.anger {
+  color: red;
+}
+
+.happy {
+  color: white;
+}
+
+.stressed {
+  color: cornflowerblue;
+}
+
+.sad {
+  color: Grey;
+}

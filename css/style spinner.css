@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    background-color: black;
+}
+
+ul{
+    align-items:end;
+    position:relative;
+    top:-240px;
+    margin-top: -50%;
+    display:flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+ul{
+
+    float:right;
+    list-style-type:georgian;
+    margin: 0px;
+    min-height:0px;
+    font-size: 24px;
+}
+
+
+
+
+ul li {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    }
+
+ul li a{
+    text-decoration:solid;
+    color: aliceblue;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: deeppink;
+    color: aliceblue;
+}
+
+ul li.active a{
+    background-color:aliceblue;
+    color:deeppink;
+}
+
+.Moviespin{
+   position:absolute;
+   font-size: 89PX;
+   word-spacing:5.9em;
+   color:rgb(247, 238, 243);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fdf90a,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(243, 247, 6);
+}
+
+.container{
+    height:350px;
+    width:350px;
+    background: deeppink;
+    position:absolute;
+    border-radius: 100%;
+    overflow:hidden;
+    box-shadow: 0 0 40px white;
+    transition:3s all;
+}
+
+.container div{
+    height: 50%;
+    Width:200px;
+    clip-path:polygon(100% 0, 50% 100%,0 0);
+    position:absolute;
+    transform:translate(-50%);
+    transform-origin:bottom;
+    left:21%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    font-weight:1000;
+    font-family: monospace;
+    letter-spacing: 5px;
+    color: blueviolet;
+    writing-mode: vertical-rl;
+}
+.container .one {
+    background:deeppink;
+    left: 50%;
+    }
+.container .two{
+    background:rgb(253, 135, 234);
+    transform: rotate(60deg);
+}
+.container .three{
+    background:deeppink;
+    transform: rotate(120deg);
+}
+.container .four{
+    background:rgb(253, 135, 234);
+    transform: rotate(180deg);
+}
+.container .five{
+    background:deeppink;
+    transform: rotate(240deg);
+}
+.container .six{
+    background:rgb(253, 135, 234);
+    transform: rotate(300deg);
+}
+.mid-item{
+    height:25px;
+    width:25px;
+    background: #f70be3;
+    border-radius: 50%;
+    position:absolute;
+}
+
+#spin{
+    height:60px;
+    width:200px;
+    background:whitesmoke;
+    position:absolute;
+    margin-top:600px;
+    border:1px solid #f806af;
+    font-size:30px;
+    font-weight:1000;
+    color:#000;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow:0 5px 10px rgb(207, 19, 224);
+    transform:0.2s; all;
+}
+#spin:hover{
+    box-shadow:none ;
+}
+.stopper{
+    height:50px;
+    width:40px;
+    background:#dbf303;
+    position:absolute;
+    margin-top:-350px;
+    clip-path:polygon(100% 0,50% 100%,0 0);
+}

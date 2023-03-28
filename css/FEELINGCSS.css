@@ -1,0 +1,189 @@
+h2.red-text {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+  }
+  h2.blue-text {
+    color: cornflowerblue;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+  }
+  img.poster {
+    border-radius: 50%;
+  }
+  div.movie {
+    margin: 2px;
+  }
+  
+  div p {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px black;
+    font-size: 17px;
+  }
+  h2 {
+    color: red;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+  }
+  img {
+    width: 300px;
+    height: 250px;
+  }
+  div.movie {
+    text-align: center;
+    margin: 2px;
+  }
+  
+  div p,
+  a p {
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px black;
+    font-size: 17px;
+  }
+  
+  .happy {
+    color: white;
+  }
+  
+  body {
+    background-image: url("starry.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .main{
+    display:flex;
+    justify-content:center;
+    right:80px;
+    align-items: center; margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+.main{
+
+    float:right;
+    list-style-type:georgian;
+    margin: 0px;
+    min-height:0px;
+    margin-right:-60px;
+    font-size: 24px;
+}
+
+
+
+
+.main li {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    }
+
+.main li a{
+    text-decoration:solid;
+    color: aliceblue;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+}
+.main li a:hover{
+    background-color: deeppink;
+    color: aliceblue;
+}
+
+.main li.active a{
+    background-color:aliceblue;
+    color:deeppink;
+}
+
+
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  .anger {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1a1e63,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(9, 11, 44);
+ }
+  
+  .happy {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1a1e63,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(9, 11, 44);
+ }
+  
+  .stressed {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1a1e63,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(9, 11, 44);
+ }
+  
+  .sad {
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1a1e63,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(9, 11, 44);
+ }
+
+
+
+  }

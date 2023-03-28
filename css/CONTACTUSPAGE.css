@@ -1,0 +1,133 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #29103d;
+	color: #fff;
+	padding: 16px;
+	text-align: center;
+    
+}
+
+
+
+
+
+h1{
+    font-size: 30px;
+    color:rgb(247, 238, 243);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #1a1e63,
+    0 0 42px rgb(255, 0, 157),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(9, 11, 44);
+}
+ul{
+    display:flex;
+    justify-content:center;
+    right:80px;
+    align-items: center; margin-top: auto;
+    margin-bottom: auto;
+}
+ 
+ul{
+
+    float:right;
+    list-style-type:georgian;
+    margin: 0px;
+    min-height:0px;
+    margin-right:-60px;
+    font-size: 24px;
+}
+
+
+
+
+ul li {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    }
+
+ul li a{
+    text-decoration:solid;
+    color: aliceblue;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: deeppink;
+    color: aliceblue;
+}
+
+ul li.active a{
+    background-color:aliceblue;
+    color:deeppink;
+}
+
+body{
+    background-image: url(donutastro.jpg);
+    background-image: absolute;
+
+}
+
+main {
+	margin: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction:column;
+    color: #fff;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: none;
+    color: rgb(247, 252, 247);
+}
+
+input[type="submit"] {
+	background-color: #f00bb7;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+footer{
+	background-color: #d7ebeb;
+	padding: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+	text-align: center;
+    font-size: 23px;
+    color: rgb(255, 0, 170);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #f509ce,
+    0 0 21px #d0df0a,
+    0 0 42px rgb(240, 6, 123),
+    0 0 82px rgb(247, 240, 244),
+    0 0 92px rgb(243, 0, 142),
+    0 0 102px rgb(244, 248, 247),
+    0 0 151px rgb(243, 8, 212);
+}
